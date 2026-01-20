@@ -1,0 +1,270 @@
+  <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My personal web site</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/786c801aac.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" alt="logo" class="logo">
+                <ul id="sidemenu" >
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Potfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm <span>Kevin</span><br>Jen from Australia</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------------------about------------------ -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-1">
+                    <img src="images/user.png" alt="about-img">
+                </div>
+
+                <div class="about-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p> I plan to pursue a career in Computer Science.
+                        Computer Science study theoretical and practical
+                        approaches to computations. They also work to design
+                        systems that enable the processing, communication and storage
+                        of information. I expect to spend some time working as a Software
+                        Developer, Data Analyst or Cyber Security Analyst.
+                    </p>
+
+                    <div class="about-titles">
+                        <p class="about-links active-link " onclick="opentab('skills')">Skills</p>
+                        <p class="about-links" onclick="opentab('experience')">Experience</p>
+                        <p class="about-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="about-contents active-content" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web App development</li>
+                            <li><span>App Development</span><br>Building Android/ios apps</li>
+                        </ul>
+                    </div>
+                    <div class="about-contents" id="experience">
+                        <ul>
+                            <li><span>Google</span> <br>Designing Web/App interfaces</li>
+                            <li><span>Microsoft Cooperation</span> <br>Microsoft Web based Apps development</li>
+                            <li><span>Infinix phones</span> <br>Building Android apps </li>
+                        </ul>
+                    </div>
+                    <div class="about-contents" id="education">
+                        <ul>
+                            <li><span>2020-2024</span><br>Konya Technical University</li>
+                            <li><span>2018-2020</span><br>Kwame Nkrumah University of Science and Technology</li>
+                            <li><span>2015-2018</span><br>Tamale Senior High School</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------------------services-------------- -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div class="service-item">
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>
+                        I plan to pursue a career in Computer Science.
+                        Computer Science study theoretical and practical
+                        approaches to computations. They also work to design
+                        systems that enable the processing, communication and storage
+                        of information.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div class="service-item">
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Designer</h2>
+                    <p>
+                        I plan to pursue a career in Computer Science.
+                        Computer Science study theoretical and practical
+                        approaches to computations. They also work to design
+                        systems that enable the processing, communication and storage
+                        of information.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div class="service-item">
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>
+                        I plan to pursue a career in Computer Science.
+                        Computer Science study theoretical and practical
+                        approaches to computations. They also work to design
+                        systems that enable the processing, communication and storage
+                        of information.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------------------potfolio------------------------- -->
+
+    <div id="potfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+
+            <div class="work-list">
+
+                <div class="work-item">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Web Design</h3>
+                        <p>
+                            I plan to pursue a career in Computer Science.
+                            Computer Science study theoretical and practical
+                            approaches to computations. They also work to design
+                            systems that enable the processing, communication and storage
+                            of information.
+                        </p>
+                        <a href="#"> <i class="fa-solid fa-arrow-up-right-from-square"> </i></a>
+                    </div>
+                </div>
+
+                <div class="work-item">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>UI/UX Designer</h3>
+                        <p>
+                            I plan to pursue a career in Computer Science.
+                            Computer Science study theoretical and practical
+                            approaches to computations. They also work to design
+                            systems that enable the processing, communication and storage
+                            of information.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work-item">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>App Design</h3>
+                        <p>
+                            I plan to pursue a career in Computer Science.
+                            Computer Science study theoretical and practical
+                            approaches to computations. They also work to design
+                            systems that enable the processing, communication and storage
+                            of information.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+            </div>
+
+            <a href="#" class="see_more">See more</a>
+        </div>
+    </div>
+
+
+    <!-- -----------------------contact------------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+
+                <div class="left">
+
+                    <h1 class="sub-title">Contact Me</h3>
+
+                        <p><i class="fa-solid fa-paper-plane"></i> abdulmuhsintiyumbashirazu@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i> +905342898655</p>
+
+                        <div class="social_icon">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+
+                        <a href="images/my-cv.pdf" download class="btn1">Download CV</a>
+                </div>
+
+                <div class="right">
+                    <form>
+                        <input type="email" name="email" placeholder="Your name" required>
+                        <input type="text" name="email" placeholder="Your email" required>
+                        <textarea name="message" rows="6" placeholder="Your message" required></textarea>
+                        <button type="submit" class="btn2">Submit</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- -------------footer-------------  -->
+    <div id="footer">
+        <p> Copyright <i class="fa-regular fa-copyright"></i> Kevin.
+            Made with <i class="fa-solid fa-heart"></i> by Easy Tutorials
+        </p>
+    </div>
+
+    <script>
+        var aboutlinks = document.getElementsByClassName("about-links");
+        var aboutcontents = document.getElementsByClassName("about-contents");
+
+        function opentab(tabname) {
+            for (aboutlink of aboutlinks) {
+                aboutlink.classList.remove("active-link");
+            }
+
+            for (aboutcontent of aboutcontents) {
+                aboutcontent.classList.remove("active-content");
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-content");
+
+        }
+    </script>
+
+<script>
+    var sidemenu=document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+
+</script>
+
+</body>
+
+</html>

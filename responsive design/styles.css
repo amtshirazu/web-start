@@ -1,0 +1,171 @@
+body {
+    max-width: 375px;
+    margin: 0 auto;
+}
+
+#background-image {
+    background-repeat: no-repeat;
+    background-image: url('background1.png');
+    background-size: contain;
+    height: 1024px;
+}
+
+#head {
+    display: flex;
+    padding-top: 20px;
+    flex-direction: row;
+    gap: 180px;
+    margin-bottom: 160px;
+    position: relative;
+}
+
+#logo {
+    padding-left: 12px;
+}
+
+#ARTJUNKS {
+    height: 20px;
+}
+
+#menu {
+    margin-top: -3px;
+}
+
+#menuImage {
+    height: 30px;
+}
+
+#dash {
+    padding-left: 12px;
+}
+
+#dash-image {
+    height: 10px;
+}
+
+#content {
+    color: white;
+    padding-left: 12px;
+    position: relative;
+}
+
+#button {
+    height: 30px;
+}
+
+.readmore {
+    margin-left: 220px;
+}
+
+#news {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.Image-text{
+    text-align: left;
+    padding-left: 10%;
+    margin-top: 10%;
+}
+.info {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24.2px;
+}
+
+@media screen and (min-width:544px){
+    body {
+    max-width: 544px;
+    margin: 0 auto;
+}
+
+#background-image {
+    background-repeat: no-repeat;
+    background-image: url('background2.png');
+    background-size: contain;
+    height: 780px;
+    margin-bottom: 0px;
+}
+
+#head {
+    display: flex;
+    padding-top: 20px;
+    flex-direction: row;
+    gap: 250px;
+    margin-bottom: 160px;
+}
+
+#logo {
+    padding-left: 12px;
+}
+
+#ARTJUNKS {
+    height: 30px;
+}
+
+
+#menu {
+    margin-top: -10px;
+}
+
+#menuImage {
+    height: 50px;
+}
+
+#dash {
+    padding-left: 12px;
+}
+
+#dash-image {
+    height: 20px;
+}
+
+#content {
+    color: white;
+    padding-left: 12px;
+    position: relative;
+}
+
+
+#button {
+    height: 40px;
+}
+
+.readmore {
+    margin-left: 55px;
+    margin-top: 10px;
+}
+
+#news {
+    display: flex;
+    flex-direction: row;
+    margin-left: 0px;
+    justify-content: space-around;
+}
+
+.cards{
+    border:1px solid black;
+}
+
+#card1M{
+    height: 200px;
+    object-fit: cover;
+}
+
+#card2M{
+    height: 200px;
+    object-fit: cover;
+}
+#card3M{
+   height: 200px;
+   object-fit: cover;
+}
+
+.Image-text{
+    text-align: left;
+}
+
+}
