@@ -1,4 +1,4 @@
-  <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -13,21 +13,25 @@
     <div id="header">
         <div class="container">
             <nav>
-                <img src="images/logo.png" alt="logo" class="logo">
-                <ul id="sidemenu" >
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Potfolio</a></li>
-                    <li><a href="#">Contact</a></li>
+                <p class="logo"><span class="logo_M">M</span>uhsin.</p>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
                     <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
                 </ul>
-                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
             </nav>
             <div class="header-text">
-                <p>UI/UX Designer</p>
-                <h1>Hi, I'm <span>Kevin</span><br>Jen from Australia</h1>
+                <p> Software Engineer</p>
+                <h1>
+                    Hi, I'm <span>Abdul-Muhsin</span>
+                    <span style="color: white;" class="tagline">I Build Secure Web & Mobile Applications</span>
+                </h1>
             </div>
+
         </div>
     </div>
 
@@ -35,48 +39,107 @@
 
     <div id="about">
         <div class="container">
+            <h1 class="sub-title">About Me</h1>
             <div class="row">
                 <div class="about-1">
-                    <img src="images/user.png" alt="about-img">
+                    <img src="images/cover.jpg" alt="about-img">
                 </div>
 
                 <div class="about-2">
-                    <h1 class="sub-title">About Me</h1>
-                    <p> I plan to pursue a career in Computer Science.
-                        Computer Science study theoretical and practical
-                        approaches to computations. They also work to design
-                        systems that enable the processing, communication and storage
-                        of information. I expect to spend some time working as a Software
-                        Developer, Data Analyst or Cyber Security Analyst.
+                    <p>
+                        I am a Software Engineering student at Konya Technical University
+                        with a strong focus on secure web and mobile application development.
                     </p>
 
-                    <div class="about-titles">
-                        <p class="about-links active-link " onclick="opentab('skills')">Skills</p>
-                        <p class="about-links" onclick="opentab('experience')">Experience</p>
-                        <p class="about-links" onclick="opentab('education')">Education</p>
-                    </div>
+                    <p>
+                        I specialize in designing and developing scalable, high-performance web
+                        applications,building cross-platform mobile applications, and integrating
+                        security best practices throughout the software development lifecycle.
+                    </p>
 
-                    <div class="about-contents active-content" id="skills">
-                        <ul>
-                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
-                            <li><span>Web Development</span><br>Web App development</li>
-                            <li><span>App Development</span><br>Building Android/ios apps</li>
-                        </ul>
-                    </div>
-                    <div class="about-contents" id="experience">
-                        <ul>
-                            <li><span>Google</span> <br>Designing Web/App interfaces</li>
-                            <li><span>Microsoft Cooperation</span> <br>Microsoft Web based Apps development</li>
-                            <li><span>Infinix phones</span> <br>Building Android apps </li>
-                        </ul>
-                    </div>
-                    <div class="about-contents" id="education">
-                        <ul>
-                            <li><span>2020-2024</span><br>Konya Technical University</li>
-                            <li><span>2018-2020</span><br>Kwame Nkrumah University of Science and Technology</li>
-                            <li><span>2015-2018</span><br>Tamale Senior High School</li>
-                        </ul>
-                    </div>
+
+                    <p>
+                        My technical foundation spans object-oriented programming, modern web
+                        development, and cross-platform mobile application development.
+                    </p>
+
+                    <p>
+                        I work confidently with Java, C, and C++, build interactive web interfaces
+                        using React, develop cross-platform mobile applications with Flutter, and
+                        and leverage Python for scripting and analytical problem-solving.
+                    </p>
+
+                    <p>
+                        Beyond development, I actively study application security and penetration
+                        testing, applying OWASP principles and real-world attack methodologies to
+                        build resilient and secure systems.
+                    </p>
+
+                </div>
+            </div>
+
+            <div class="about-3">
+
+                <div class="about-titles">
+                    <p class="about-links active-link " onclick="opentab('skills')">Skills</p>
+                    <p class="about-links" onclick="opentab('experience')">Experience</p>
+                    <p class="about-links" onclick="opentab('education')">Education</p>
+                </div>
+
+                <div class="about-contents active-content" id="skills">
+                    <ul>
+                        <li><span class="skill-type">Web Development</span>
+                            <p class="skill-details">React, Node.js, Express, Spring Boot</p>
+                        </li>
+
+                        <li><span class="skill-type">Mobile Development</span>
+                            <p class="skill-details">Flutter & Dart Cross-Platform Apps</p>
+                        </li>
+
+                        <li><span class="skill-type">Backend Engineering</span>
+                            <p class="skill-details">REST APIs, Microservices, MySQL, MongoDB</p>
+                        </li>
+
+                        <li><span class="skill-type">Application Security</span>
+                            <p class="skill-details">OWASP Top 10, Secure Coding, Pentesting Basics</p>
+                        </li>
+
+                        <li><span class="skill-type">DevOps & Tools</span>
+                            <p class="skill-details">Docker, Git, Linux</p>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div class="about-contents" id="experience">
+                    <ul>
+                        <li><span>Google</span> <br>Designing Web/App interfaces</li>
+                        <li><span>Microsoft Cooperation</span> <br>Microsoft Web based Apps development</li>
+                        <li><span>Infinix phones</span> <br>Building Android apps </li>
+                    </ul>
+                </div>
+
+                <div class="about-contents" id="education">
+                    <ul>
+                        <li>
+                            <span class="edu-year">2023 - 2027</span>
+                            <p class="edu-school">Konya Technical University</p>
+                            <p>BSc Software Engineering</p>
+                        </li>
+
+                        <li>
+                            <span class="edu-year">2022 - 2023</span>
+                            <p class="edu-school">Kwame Nkrumah University of Science and Technology</p>
+                            <p>Computer Science</p>
+                        </li>
+
+                        <li>
+                            <span class="edu-year">2018 - 2021</span>
+                            <p class="edu-school">Tamale Senior High School</p>
+                            <p>General Science</p>
+                        </li>
+
+                    </ul>
                 </div>
             </div>
         </div>
@@ -90,41 +153,41 @@
             <div class="services-list">
                 <div class="service-item">
                     <i class="fa-solid fa-code"></i>
-                    <h2>Web Design</h2>
+                    <h2>Web Development</h2>
                     <p>
-                        I plan to pursue a career in Computer Science.
-                        Computer Science study theoretical and practical
-                        approaches to computations. They also work to design
-                        systems that enable the processing, communication and storage
-                        of information.
+                        I design and develop modern, scalable, and high-performance web applications
+                        using technologies like React, Node.js, Express, and Spring Boot.
+                        My focus is on building responsive user interfaces, clean backend
+                        architectures, and secure systems that follow industry best practices.
                     </p>
-                    <a href="#">Learn more</a>
-                </div>
 
-                <div class="service-item">
-                    <i class="fa-solid fa-crop-simple"></i>
-                    <h2>UI/UX Designer</h2>
-                    <p>
-                        I plan to pursue a career in Computer Science.
-                        Computer Science study theoretical and practical
-                        approaches to computations. They also work to design
-                        systems that enable the processing, communication and storage
-                        of information.
-                    </p>
-                    <a href="#">Learn more</a>
+                    <a href="#portfolio">Learn more</a>
                 </div>
 
                 <div class="service-item">
                     <i class="fa-brands fa-app-store"></i>
-                    <h2>App Design</h2>
+                    <h2>Mobile App Development</h2>
                     <p>
-                        I plan to pursue a career in Computer Science.
-                        Computer Science study theoretical and practical
-                        approaches to computations. They also work to design
-                        systems that enable the processing, communication and storage
-                        of information.
+                        I build cross-platform mobile applications using Flutter and Dart,
+                        creating smooth, responsive experiences for both Android and iOS.
+                        I focus on performance optimization, clean architecture, and
+                        maintainable code to ensure long-term scalability.
                     </p>
-                    <a href="#">Learn more</a>
+
+                    <a href="#portfolio">Learn more</a>
+                </div>
+
+                <div class="service-item">
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Application Security</h2>
+                    <p>
+                        I apply secure coding practices and OWASP principles to develop
+                        resilient web and mobile applications. With knowledge of penetration
+                        testing and common attack vectors, I develop systems that prioritize
+                        security at every stage of development.
+                    </p>
+
+                    <a href="#portfolio">Learn more</a>
                 </div>
 
             </div>
@@ -133,16 +196,14 @@
 
     <!-- -----------------------potfolio------------------------- -->
 
-    <div id="potfolio">
+    <div id="portfolio">
         <div class="container">
             <h1 class="sub-title">My Work</h1>
-
             <div class="work-list">
-
                 <div class="work-item">
                     <img src="images/work-1.png">
                     <div class="layer">
-                        <h3>Web Design</h3>
+                        <h3>Phone Verification System</h3>
                         <p>
                             I plan to pursue a career in Computer Science.
                             Computer Science study theoretical and practical
@@ -150,14 +211,14 @@
                             systems that enable the processing, communication and storage
                             of information.
                         </p>
-                        <a href="#"> <i class="fa-solid fa-arrow-up-right-from-square"> </i></a>
+                        <a href="https://github.com/amtshirazu/phone-validation" target="_blank" rel="noopener noreferrer"> <i class="fa-solid fa-arrow-up-right-from-square"> </i></a>
                     </div>
                 </div>
 
                 <div class="work-item">
                     <img src="images/work-2.png">
                     <div class="layer">
-                        <h3>UI/UX Designer</h3>
+                        <h3>Global time Mobile App</h3>
                         <p>
                             I plan to pursue a career in Computer Science.
                             Computer Science study theoretical and practical
@@ -165,14 +226,14 @@
                             systems that enable the processing, communication and storage
                             of information.
                         </p>
-                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a href="https://github.com/amtshirazu/world-time-flutter" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
 
                 <div class="work-item">
                     <img src="images/work-3.png">
                     <div class="layer">
-                        <h3>App Design</h3>
+                        <h3>Hero Game Mobile App</h3>
                         <p>
                             I plan to pursue a career in Computer Science.
                             Computer Science study theoretical and practical
@@ -180,13 +241,13 @@
                             systems that enable the processing, communication and storage
                             of information.
                         </p>
-                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a href="https://github.com/amtshirazu/hero-character-app" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
 
             </div>
 
-            <a href="#" class="see_more">See more</a>
+            <a href="https://github.com/amtshirazu" target="_blank" rel="noopener noreferrer" class="see_more">See more</a>
         </div>
     </div>
 
@@ -210,7 +271,7 @@
                             <a href="#"><i class="fa-brands fa-linkedin"></i></a>
                         </div>
 
-                        <a href="images/my-cv.pdf" download class="btn1">Download CV</a>
+                        <a href="images/my-cv.pdf" download="Abdul-Muhsin-CV.pdf" class="btn1">Download CV</a>
                 </div>
 
                 <div class="right">
@@ -252,18 +313,18 @@
         }
     </script>
 
-<script>
-    var sidemenu=document.getElementById("sidemenu");
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
 
-    function openmenu(){
-        sidemenu.style.right="0";
-    }
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
 
-    function closemenu(){
-        sidemenu.style.right="-200px";
-    }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
 
-</script>
+    </script>
 
 </body>
 
